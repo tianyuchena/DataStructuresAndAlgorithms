@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df6c1f-1fe5-48fe-876a-f693f0cf717a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAndAlgorithms/com/cty/array/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAndAlgorithms/com/cty/array/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructureAndAlgorithms/com/cty/array/ArrayApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructureAndAlgorithms/com/cty/array/ArrayApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/array/ArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/array/ArrayApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/ordarray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/ordarray/OrdArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/ordarray/OrdArrayApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/ordarray/OrdArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructuresAndAlgorithms.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +42,7 @@
   <component name="RunManager" selected="Application.ArrayApp">
     <configuration name="ArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cty.array.ArrayApp" />
-      <module name="DataStructureAndAlgorithms" />
+      <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cty.array.*" />
@@ -60,13 +55,60 @@
     </configuration>
     <configuration name="OrdArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cty.ordarray.OrdArrayApp" />
-      <module name="DataStructureAndAlgorithms" />
+      <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cty.ordarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="DataStructuresAndAlgorithms" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="DataStructuresAndAlgorithms" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -101,7 +143,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587806398957</updated>
       <workItem from="1587806402645" duration="10213000" />
-      <workItem from="1587860940354" duration="39994000" />
+      <workItem from="1587860940354" duration="43747000" />
     </task>
     <servers />
   </component>
@@ -109,46 +151,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1587974907001">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1587979806513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587974907001" />
-    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1587974907001">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587979806513" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1587979806513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587974907001" />
-    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1587974907001">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587979806513" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1587979806513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587974907001" />
-    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1587974907001">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587979806513" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1587979806513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587974907001" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587946070422">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587979806513" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1587979806514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587946070422" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1587946070422">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587979806514" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1587979806514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587946070422" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1587946070422">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587979806514" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1587979806513">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587946070422" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1587946070422">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587979806513" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1587979806514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587946070422" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587979806514" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587860968043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587860968043" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587891898525">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587975853449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587891898525" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587975853449" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
