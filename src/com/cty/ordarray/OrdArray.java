@@ -10,19 +10,25 @@ public class OrdArray {
     private long[] a;
     private int nElems;
 
-    /**
-     * 基本方法
+
+    /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+     * 基本方法总结：
      *      构造器
-     *      显示
-     *      元素个数
+     *      显示所有数组中的元素
+     *      返回数组中元素个数
+     *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /**
+     * 构造器
+     * @param maxSize  待创建数组的容量
      */
-    /* 构造器 */
     public OrdArray(int maxSize){
         a = new long[maxSize];
         nElems = 0;
     }  // end OrdArray()
 
-    // 显示
+    /**
+     * 显示所有数组中的元素
+     */
     public void display(){
         int i;
         for(i=0; i<nElems; i++){
@@ -31,19 +37,45 @@ public class OrdArray {
         System.out.println("");
     }  // end display()
 
-    /* 元素个数 */
+    /**
+     * 返回数组中元素个数
+     * @return nElems  当前元素个数
+     */
     public int size(){
         return nElems;
     }  // end size()
 
-    /**
-     * 查找
+
+    /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+     * 查找方法总结：
+     *      根据索引查找，返回元素值
      *      根据值查找，返回查找到第一个的索引
-     *
-     * 使用的二分法
+     *      根据值查找，返回是否查找到
+     *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /**
+     * 根据索引查找，返回元素值
+     * @param i  索引
+     * @return long
+     *          case 1 -1-查找失败，索引值超出数组范围
+     *          case 2 a[i]-查找成功
      */
-    /* 根据值查找，返回查找到第一个的索引 */
-    public int find(long searchKey){
+    public long findByIndex(int i){
+        if((i>=a.length) || (i<0)){
+            System.out.println("查找失败，索引值超出数组范围");
+            return -1;  // case 1 -1-查找失败，索引值超出数组范围
+        }else{
+            return a[i];  // case 2 a[i]-查找成功
+        }
+    }
+
+    /**
+     * 根据值查找，返回查找到第一个的索引
+     * @param searchKey  查找键（值）
+     * @return int
+     *          case 1 curIn-返回查找到第一个的索引
+     *          case 2 nElems-空数组、之间未找到、小于左边界或大于有边界，未查找到
+     */
+    public int findIndex(long searchKey){
         int lowerBound = 0;
         int upperBound = nElems-1;
         int curIn;
@@ -51,9 +83,9 @@ public class OrdArray {
         while(true){
             curIn = (lowerBound + upperBound)/2;
             if(a[curIn] == searchKey){
-                return curIn;  // 找到
+                return curIn;  // case 1 curIn-返回查找到第一个的索引
             }else if(lowerBound > upperBound){
-                return nElems;  // 未找到
+                return nElems;  // case 2 nElems-空数组、之间未找到、小于左边界、大于有边界，未查找到返回nElems
             }else{
                 if(a[curIn] < searchKey){
                     lowerBound = curIn + 1;  // 在上半边
@@ -65,47 +97,146 @@ public class OrdArray {
     }  // end find()
 
     /**
-     * 插入
-     *      有序插入-在第一个大于新增值的位置插入
-     *
+     * 根据值查找，返回是否查找到
+     * @param searchKey  查找键
+     * @return boolean
+     *      case 1 false
+     *      case2 true
+     */
+    public boolean find(long searchKey){
+        return findIndex(searchKey)==nElems?false:true;
+    }  // end find
+
+
+    /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+     * 插入总结：
+     *      在指定索引的位置插入
+     *      有序线性插入-线性查找，在合适的位置插入
+     *      有序二分法插入-二分法查找，在合适的位置插入
+     *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /**
+     * 在指定索引的位置插入
+     * @param i  索引值
+     * @param value  待插入值
+     * @return boolean
+     *          case 1 false-数组已经满
+     *          case 2 false-索引值超出数组范围
+     *          case 3 true-高位上移（若存在的话）并赋值
+     * 注意：
+     *      是否数组已满
+     *      是否索引值超出数组范围
+     */
+    public boolean insertByIndex(int i, long value){
+        if(nElems == a.length){
+            System.out.println("插入失败-数组已经满");
+            return false;  // case 1 false-数组已经满
+        }else{
+            if((i>=a.length) || (i<0)){
+                System.out.println("插入失败-索引值超出数组范围");
+                return false;  // case 2 false-索引值超出数组范围
+            }else{
+                int j;
+                for(j=nElems; j>i; j--){  // 高位上移，留出空位
+                    a[j] = a[j-1];
+                }  // end for
+                a[j] = value;  // 赋值
+                nElems++;
+                return true;  // case 3 true-高位上移（若存在的话）并赋值
+            }  // end else
+        }  // end else
+    }  // end indexByIndex()
+
+    /**
+     * 有序线性插入-线性查找，在合适的位置插入
+     * @param value  待插入值
+     * @return boolean
+     *          case 1 false-数组已满
+     *          case 2 true-找到第一个大于value的位置并插入
+     *          case 3 true-未找到大于value的值，在末尾插入
      * 注意：
      *      是否数组已满
      */
-    /* 有序插入-在第一个大于新增值的位置插入 */
     public boolean insert(long value){
-        if(nElems == a.length){
-            return false;  // 插入失败-数组已满
-        }else{
+        if(nElems == a.length){  // 已满
+            return false;  // case 1 false-数组已满
+        }else{  // 未满
             int i;
-            for(i=0; i<nElems; i++){  // 找到第一个大于value的位置
+            for(i=0; i<nElems; i++){
                 if(a[i] > value){
-                    break;
+                    return insertByIndex(i, value);  // case 2 true-找到第一个大于value的位置并插入
                 }  // end if
             }  // end for
-            int j;
-            for(j=nElems; j>i; j--){  // 高位上移，留出空位
-                a[j] = a[j-1];
-            }  // end for
-            a[i] = value;  // 插入
+            a[i] = value;  // case 3 true-未找到大于value的值，在末尾插入
             nElems++;
             return true;
         }  // end else
     }  // end insert()
 
+    /**  P50-T2.4-2
+     * 有序二分法插入-二分法查找，在合适的位置插入
+     * @param value 待插入值
+     * @return boolean
+     *          case 1 false-数组已满
+     *          case 2 true-value在有序数组的最大值和最小值之间且有相同值，在找到的一个相同值的位置插入
+     *          case 3 true-空数组、之间未找到、小于左边界、大于右边界，在lowerBound的位置插入
+     * 注意：
+     *      是否数组已满
+     */
+    public boolean fastInsert(long value){
+        if(nElems == a.length){  // 已满
+            return false;  // case 1 false-数组已满
+        }else{  // 未满
+            int lowerBound = 0;
+            int upperBound = nElems-1;
+            int curIn;
+
+            while(true){
+                curIn = (lowerBound + upperBound)/2;
+                if(a[curIn] == value){  // 有相同值
+                    return insertByIndex(curIn, value);  // case 2 true-value在有序数组的最大值和最小值之间且有相同值，
+                    // 在找到的一个相同值的位置插入
+                }  else if(lowerBound > upperBound){
+                    return insertByIndex(lowerBound, value);  // case 3 true-空数组、之间未找到、小于左边界、大于右边界，
+                    // 在lowerBound的位置插入
+                } else{
+                    if(a[curIn] < value){
+                        lowerBound = curIn + 1;  // 在上半边
+                    }  // end if
+                    else{
+                        upperBound = curIn - 1;  // 在下半边
+                    } // end else
+                }  // end else
+            }  // end while
+        }  // end else
+    }  // end fastInsert()
+
+
+    /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+     * 删除总结：
+     *      通过索引删除
+     *      通过值删除第一个
+     *      通过值删除所有
+     *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     /**
-     * 删除
-     *      通过索引删除，返回是否删除成功
-     *      通过值删除第一个，返回是否删除成功
-     *      通过值删除所有，返回是否删除成功
+     * 通过索引删除
+     * @param i  索引值
+     * @return boolean
+     *         case 1 false-索引超出数组范围
+     *         case 2 false-索引位置为空值
+     *         case 3 true-删除成功
      *
      * 注意：
-     *      是否查找到（决定是否删除成功）
+     *      是否索引超出数组范围
+     *      是否索引位置为空值
      *      是否数组已满（高位下移时分析）
      */
-    /* 通过索引删除，返回是否删除成功 */
     public boolean deleteByIndex(int i){
-        if(i == nElems){
-            return false;  // 删除失败-没有找到
+        if((i>=a.length) || (i<0)){
+            System.out.println("删除失败-索引超出数组范围");
+            return false;  // case 1 false-索引超出数组范围
+        }else if(i >= nElems){
+            System.out.println("删除失败-索引位置为空值");
+            return false;  // case 2 false-索引位置为空值
         }else{
             if(nElems == a.length){  // 数组已满
                 int j;
@@ -121,19 +252,28 @@ public class OrdArray {
                 }  // end for
                 nElems--;
             }  // end else
-            return true;  // 删除成功
+            return true;  // case 3 true-删除成功
         }  // end else
     }  // end deleteByIndex()
 
+    /** P50-T2.4-2
+     * 通过值删除第一个
+     * @param value  待删除值
+     * @return boolean
+     */
     /* 通过值删除第一个，返回是否删除成功 */
     public boolean delete(long value){
-        int i = find(value);
+        int i = findIndex(value);
         return deleteByIndex(i);
     }  // end delete()
 
-    /* 通过值删除所有，返回是否删除成功 */
-    public boolean deleteAll(long value){
-        int i = find(value);
+    /**
+     * 通过值删除所有
+     * @param value  待删除值
+     * @return boolean
+     */
+    public void deleteAll(long value){
+        int i = findIndex(value);
         if(deleteByIndex(i)){  // 删除第一个
             int j = i-1;
             while(a[j] == value){
@@ -145,10 +285,59 @@ public class OrdArray {
                 deleteByIndex(k);
                 // j++; // 不需要自增，因为若删除成功，高位会自动回落
             }  // end while
-            return true;
-        }else{
-            return false;  // 删除失败-未找到
-        }  // end else
+        }
     }  // end deleteAll()
+
+
+    /** P50-T2.5
+     * 合并有序数组
+     * @param src1  有序数组1
+     * @param src2  有序数组2
+     * @return OrdArray
+     *          case 1 src2-src1为空，直接返回src2
+     *          case 2 src1-src2为空，直接返回src1
+     *          case 3 dst-都不为空，src1先遍历完
+     *          case 4 dst-都不为空，src2先遍历完
+     *          case 5 dst-都不为空，同时遍历完
+     */
+    public static OrdArray merge(OrdArray src1, OrdArray src2){
+        if(0 == src1.size()){
+            return src2;  // case 1 src2-src1为空，直接返回src2
+        }else if(0 == src2.size()){
+            return src1;  // case 2 src1-src2为空，直接返回src1
+        }else{  // 都不为空
+            int size1 = src1.size();
+            int size2 = src2.size();
+            OrdArray dst = new OrdArray(size1+size2);
+
+            int ind1 = 0;
+            int ind2 = 0;
+            while(true){
+                if((ind1==size1) && (ind2<size2)){  // src1遍历完，src2还有剩余
+                    int j;
+                    for(j=ind2; j<size2; j++){
+                        dst.insert(src2.findByIndex(j));
+                    }  // end for
+                    return dst;  // case 3 dst-都不为空，src1先遍历完
+                }else if((ind2==size2) && (ind1<size1)){  // src2遍历完，src1还有剩余
+                    int j;
+                    for(j=ind1; j<size1; j++){
+                        dst.insert(src1.findByIndex(j));
+                    }  // end for
+                    return dst;  // case 4 dst-都不为空，src2先遍历完
+                }else if((ind1==size1) && (ind2==size2)){  // src1和src2都遍历完
+                    return dst;  // case 5 dst-都不为空，同时遍历完
+                }else{  // src1和src2都未遍历完
+                    if(src1.findByIndex(ind1) <= src2.findByIndex(ind2)){
+                        dst.insert(src1.findByIndex(ind1));
+                        ind1++;
+                    }else {
+                        dst.insert(src2.findByIndex(ind2));
+                        ind2++;
+                    }
+                }// end else
+            }  // end while
+        }  // end else
+    }  // end merge()
 
 }  // end OrdArray{}
