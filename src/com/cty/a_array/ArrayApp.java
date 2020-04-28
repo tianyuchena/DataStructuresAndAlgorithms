@@ -1,4 +1,4 @@
-package com.cty.array;
+package com.cty.a_array;
 
 /**
  * @Auther: cty

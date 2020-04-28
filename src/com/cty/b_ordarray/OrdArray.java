@@ -1,4 +1,4 @@
-package com.cty.ordarray;
+package com.cty.b_ordarray;
 
 /**
  * @Auther: cty
@@ -48,9 +48,9 @@ public class OrdArray {
 
     /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
      * 查找方法总结：
-     *      根据索引查找，返回元素值
-     *      根据值查找，返回查找到第一个的索引
-     *      根据值查找，返回是否查找到
+     *      根据索引查找，返回元素值  s=1  O(1)
+     *      根据值查找，返回查找到第一个的索引  s=log2N  O(logN)
+     *      根据值查找，返回是否查找到  s=log2N  O(logN)
      *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     /**
      * 根据索引查找，返回元素值
@@ -58,6 +58,8 @@ public class OrdArray {
      * @return long
      *          case 1 -1-查找失败，索引值超出数组范围
      *          case 2 a[i]-查找成功
+     * 时间复杂度分析：
+     *      s=1  O(1)
      */
     public long findByIndex(int i){
         if((i>=a.length) || (i<0)){
@@ -74,6 +76,8 @@ public class OrdArray {
      * @return int
      *          case 1 curIn-返回查找到第一个的索引
      *          case 2 nElems-空数组、之间未找到、小于左边界或大于有边界，未查找到
+     * 时间复杂度分析：
+     *      s=log2N  O(logN)
      */
     public int findIndex(long searchKey){
         int lowerBound = 0;
@@ -102,6 +106,8 @@ public class OrdArray {
      * @return boolean
      *      case 1 false
      *      case2 true
+     * 时间复杂度分析：
+     *      s=log2N  O(logN)
      */
     public boolean find(long searchKey){
         return findIndex(searchKey)==nElems?false:true;
@@ -110,9 +116,9 @@ public class OrdArray {
 
     /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
      * 插入总结：
-     *      在指定索引的位置插入
-     *      有序线性插入-线性查找，在合适的位置插入
-     *      有序二分法插入-二分法查找，在合适的位置插入
+     *      在指定索引的位置插入  s=N/2  O(N)
+     *      有序线性插入-线性查找，在合适的位置插入  s=N/2+N/2+1  O(N)
+     *      有序二分法插入-二分法查找，在合适的位置插入  s=log2N  O(logN)
      *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     /**
      * 在指定索引的位置插入
@@ -125,6 +131,8 @@ public class OrdArray {
      * 注意：
      *      是否数组已满
      *      是否索引值超出数组范围
+     * 时间复杂度分析：
+     *      s=N/2  O(N)
      */
     public boolean insertByIndex(int i, long value){
         if(nElems == a.length){
@@ -155,6 +163,8 @@ public class OrdArray {
      *          case 3 true-未找到大于value的值，在末尾插入
      * 注意：
      *      是否数组已满
+     * 时间复杂度分析：
+     *      s=N/2+N/2+1  O(N)
      */
     public boolean insert(long value){
         if(nElems == a.length){  // 已满
@@ -181,6 +191,8 @@ public class OrdArray {
      *          case 3 true-空数组、之间未找到、小于左边界、大于右边界，在lowerBound的位置插入
      * 注意：
      *      是否数组已满
+     * 时间复杂度分析：
+     *      s=log2N  O(logN)
      */
     public boolean fastInsert(long value){
         if(nElems == a.length){  // 已满
@@ -213,9 +225,9 @@ public class OrdArray {
 
     /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
      * 删除总结：
-     *      通过索引删除
-     *      通过值删除第一个
-     *      通过值删除所有
+     *      通过索引删除  s=N/2  O(N)
+     *      通过值删除第一个  s=log2N+N/2  O(N)
+     *      通过值删除所有  s>log2N+N/2  O(N)
      *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     /**
      * 通过索引删除
@@ -224,11 +236,12 @@ public class OrdArray {
      *         case 1 false-索引超出数组范围
      *         case 2 false-索引位置为空值
      *         case 3 true-删除成功
-     *
      * 注意：
      *      是否索引超出数组范围
      *      是否索引位置为空值
      *      是否数组已满（高位下移时分析）
+     * 时间复杂度分析：
+     *      s=N/2  O(N)
      */
     public boolean deleteByIndex(int i){
         if((i>=a.length) || (i<0)){
@@ -260,6 +273,8 @@ public class OrdArray {
      * 通过值删除第一个
      * @param value  待删除值
      * @return boolean
+     * 时间复杂度分析：
+     *      s=log2N+N/2  O(N)
      */
     /* 通过值删除第一个，返回是否删除成功 */
     public boolean delete(long value){
@@ -271,6 +286,9 @@ public class OrdArray {
      * 通过值删除所有
      * @param value  待删除值
      * @return boolean
+     * 时间复杂度分析：
+     *      s>log2N+N/2  O(N)
+     *      >来自不止删除1个
      */
     public void deleteAll(long value){
         int i = findIndex(value);
@@ -299,6 +317,8 @@ public class OrdArray {
      *          case 3 dst-都不为空，src1先遍历完
      *          case 4 dst-都不为空，src2先遍历完
      *          case 5 dst-都不为空，同时遍历完
+     * 时间复杂度分析：
+     *      s=N1+N2  O(N)
      */
     public static OrdArray merge(OrdArray src1, OrdArray src2){
         if(0 == src1.size()){
