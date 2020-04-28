@@ -65,7 +65,7 @@ class ArraySelect {
      *      s=N*(N-1)/2 + N  O(N^2)
      *        比较       交换
      */
-    public void SelectSort(){
+    public void selectSort(){
         int in, out, min;
         for(out=0; out<nElems; out++){
             min = out;
@@ -97,7 +97,7 @@ class SelectSortApp{
 
         arr.display();
 
-        arr.SelectSort();
+        arr.selectSort();
 
         arr.display();
     }  // end main()

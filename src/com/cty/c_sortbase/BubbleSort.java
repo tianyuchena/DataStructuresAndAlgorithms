@@ -67,13 +67,45 @@ class ArrayBubble {
      * 应用场景：
      *      数据量很小
      */
-    public void BubbleSort(){
+    public void bubbleSort(){
         int in, out;
         for(out=nElems-1; out>0; out--)
             for(in=0; in<out; in++)
                 if(a[in] > a[in+1])
                     swap(in, in+1);
     }  // end BubbleSort()
+
+
+    /** P78-T3.1
+     * 双向扫描冒泡排序
+     * 时间复杂度分析：
+     *      s=N*(N-1)/2 + N*(N-1)/4  O(N^2)
+     *        比较         交换
+     */
+    public void bubbleSort2(){
+        int in;
+        int outMax = nElems-1;
+        int outMin = 0;
+
+        while(outMax > outMin+1){  // 当数据项个数为偶数个时，循环在此结束
+            for(in=outMin; in<outMax; in++){
+                if(a[in] > a[in+1]){
+                    swap(in, in+1);
+                }  // end if
+            }  // end for
+            outMax--;
+
+            if(outMax == outMin+1)  // 当数据项个数为奇数个时，循环在此结束
+                break;
+
+            for(in=outMax; in>outMin; in--){
+                if(a[in] < a[in-1]){
+                    swap(in, in-1);
+                }  // end if
+            }  // end for
+            outMin++;
+        }  // end while()
+    }  // end BubbleSort2()
 
 }  // end ArrayBubble{}
 
@@ -95,7 +127,8 @@ class BubbleSortApp{
 
         arr.display();
 
-        arr.BubbleSort();
+//        arr.bubbleSort();  // 单向扫描冒泡排序
+        arr.bubbleSort2();  // 双向扫描冒泡排序
 
         arr.display();
     }  // end main()
