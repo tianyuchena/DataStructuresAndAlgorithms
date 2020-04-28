@@ -3,17 +3,17 @@ package com.cty.c_sortbase;
 /**
  * @Auther: cty
  * @Date: 2020/4/28 11:05
- * @Description: 选择排序  O(N^2)
+ * @Description: 插入排序  O(N^2)
  * @version: 1.0
  */
-class ArraySelect {
+class ArrayInsert {
     private long[] a;
     private int nElems;
 
-    public ArraySelect(int max){
+    public ArrayInsert(int max){
         a = new long[max];
         nElems = 0;
-    }  // end ArraySelect()
+    }  // end ArrayInsert()
 
     public void display(){
         int i;
@@ -34,17 +34,19 @@ class ArraySelect {
     }  // end insert()
 
     /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-     * 选择排序总结：
+     * 插入排序总结：
      *      交换  s=3  O(1)
-     *      选择排序  s=N*(N-1)/2 + N  O(N^2)
+     *      插入排序  s=N*(N-1)/4 + N*(N-1)/4  O(N^2)
      * 改进：
-     *      相对于冒泡排序，选择排序将交换的次数改善为N次。
+     *      对于随机数组，相较于冒泡排序，平均上插入排序将比较次数减少了一半。
+     *      对于逆序数组，每次比较和移动都会执行，并不比冒泡排序快，是最坏的情况。
      * 应用场景：
      *      数据量很小
-     *      交换数据相对于比较数据更加耗时
+     *      数据基本有序
      * 不变性：
-     *      说法一：每次交换后，下标小于等于out的位置的数据项总是（固定）有序的。
-     *      说法二：下标小于out的位置的数据项总是（固定）有序的。
+     *      说法一：每次将temp位置的项插入后，下标小于等于out的位置的数据项都是局部有序的。
+     *      说法二：下标小于out的位置的数据项都是局部有序的。
+     *      局部有序：组内的数据项已经排好序，而组外的数据项需要插入到组中来。
      *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     /**
      * 交换
@@ -60,29 +62,30 @@ class ArraySelect {
     }  // end swap()
 
     /**
-     * 选择排序
+     * 插入排序
      * 时间复杂度分析：
-     *      s=N*(N-1)/2 + N  O(N^2)
-     *        比较       交换
+     *      s=N*(N-1)/4 + N*(N-1)/4  O(N^2)
+     *        比较         交换
      */
-    public void SelectSort(){
-        int in, out, min;
-        for(out=0; out<nElems; out++){
-            min = out;
-            for(in=out+1; in<nElems; in++)  // 先遍历找到最小值
-                if(a[in] < a[min])
-                    min = in;
-            swap(out, min);  // 再交换
+    public void InsertSort(){
+        int in, out;
+        for(out=1; out<nElems; out++){
+            long temp = a[out];
+            in = out;
+            while(in>0 && a[in-1]>=temp){  // = 保证了稳定性
+                a[in] = a[in-1];
+                --in;
+            }  // end while
+            a[in] = temp;
         }  // end for
+    }  // end InsertSort()
 
-    }  // end SelectSort()
+}  // end ArrayInsert{}
 
-}  // end ArraySelect{}
-
-class SelectSortApp{
+class InsertSortApp{
     public static void main(String[] args) {
         int maxSize = 100;
-        ArraySelect arr = new ArraySelect(maxSize);
+        ArrayInsert arr = new ArrayInsert(maxSize);
 
         arr.insert(77);
         arr.insert(99);
@@ -97,12 +100,12 @@ class SelectSortApp{
 
         arr.display();
 
-        arr.SelectSort();
+        arr.InsertSort();
 
         arr.display();
     }  // end main()
 
-}  // end BubbleSortApp{}
+}  // end ArrayInsert{}
 
 /** 2020年4月28日
  77 99 44 55 22 88 11 0 66 33
