@@ -3,17 +3,17 @@ package com.cty.c_sortbase;
 /**
  * @Auther: cty
  * @Date: 2020/4/28 11:05
- * @Description: 冒泡排序  O(N^2)
+ * @Description: 选择排序  O(N^2)
  * @version: 1.0
  */
-class ArrayBubble {
+class ArraySelect {
     private long[] a;
     private int nElems;
 
-    public ArrayBubble(int max){
+    public ArraySelect(int max){
         a = new long[max];
         nElems = 0;
-    }  // end ArrayBubble()
+    }  // end ArraySelect()
 
     public void display(){
         int i;
@@ -34,9 +34,11 @@ class ArrayBubble {
     }  // end insert()
 
     /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-     * 冒泡排序总结：
+     * 选择排序总结：
      *      交换  s=3  O(1)
-     *      冒泡排序  s=N*(N-1)/2 + N*(N-1)/4  O(N^2)
+     *      选择排序  s=N*(N-1)/2 + N  O(N^2)
+     * 改进：
+     *      相对于冒泡排序，选择排序将交换的次数改善为N次。
      *  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     /**
      * 交换
@@ -52,24 +54,29 @@ class ArrayBubble {
     }  // end swap()
 
     /**
-     * 冒泡排序
+     * 选择排序
      * 时间复杂度分析：
-     *      s=N*(N-1)/2 + N*(N-1)/4  O(N^2)
-     *        比较         交换
-     * 注意：一般来说交换的次数是比较的一半；
-     *      逆序意味着每次比较都要交换，是最坏的情况。
+     *      s=N*(N-1)/2 + N  O(N^2)
+     *        比较       交换
+     * 注意：相对于冒泡排序，选择排序将交换的次数改善为N次。
      */
-    public void BubbleSort(){
-        int in, out;
-        for(out=nElems-1; out>0; out--)
-            for(in=0; in<out; in++)
-                if(a[in] > a[in+1])
-                    swap(in, in+1);
-    }  // end BubbleSort()
+    public void SelectSort(){
+        int in, out, min;
+        for(out=0; out<nElems; out++){
+            min = out;
+            for(in=out+1; in<nElems; in++){  // 先遍历找到最小值
+                if(a[in] < a[min]){
+                    min = in;
+                }  // end if
+            }  // end for
+            swap(out, min);  // 再交换
+        }  // end for
 
-}  // end ArrayBubble{}
+    }  // end SelectSort()
 
-class BubbleSortApp{
+}  // end ArraySel{}
+
+class SelectSortApp{
     public static void main(String[] args) {
         int maxSize = 100;
         ArrayBubble arr = new ArrayBubble(maxSize);
