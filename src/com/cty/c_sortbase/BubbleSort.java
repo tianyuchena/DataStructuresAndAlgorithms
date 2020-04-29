@@ -107,6 +107,39 @@ class ArrayBubble {
         }  // end while()
     }  // end BubbleSort2()
 
+    /** P79-T3.4
+     * 奇偶排序
+     * @return int  奇偶趟扫描的次数
+     * 时间复杂的分析： O(N^2)
+     *      每趟扫描里，奇数趟和偶数趟都是比较N/2次，平均交换N/4
+     *      扫描的次数 <= ⌈N/2⌉，当最大值在最左边或最小值在最右边时等号成立
+     */
+    public int oddEvenSort(){
+        int scanNum = 0;
+        while(true){
+            int i, j;
+            int oddSwapNum = 0;
+            int evenSwapNum = 0;
+
+            for(i=1; i<nElems-1; i+=2)  // 奇数趟
+                if(a[i] > a[i+1]){
+                    swap(i, i+1);
+                    oddSwapNum++;
+                }
+
+            for(j=0; j<nElems-1; j+=2)  // 偶数趟
+                if(a[j] > a[j+1]){
+                    swap(j, j+1);
+                    evenSwapNum++;
+                }
+
+            if(0==oddSwapNum && 0==evenSwapNum)  // 奇数趟和偶数趟都一次没有交换
+                return scanNum;
+
+            scanNum++;
+        }  // end while
+    }  // end oddEvenSort()
+
 }  // end ArrayBubble{}
 
 class BubbleSortApp{
@@ -128,8 +161,9 @@ class BubbleSortApp{
         arr.display();
 
 //        arr.bubbleSort();  // 单向扫描冒泡排序
-        arr.bubbleSort2();  // 双向扫描冒泡排序
-
+//        arr.bubbleSort2();  // 双向扫描冒泡排序
+        int c = arr.oddEvenSort();
+        System.out.println("一共扫描了 "+c+" 次奇偶趟");
         arr.display();
     }  // end main()
 

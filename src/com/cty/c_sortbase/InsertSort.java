@@ -80,6 +80,30 @@ class ArrayInsert {
         }  // end for
     }  // end InsertSort()
 
+    /** P79-T3.5
+     * 插入排序 显示比较和复制的次数
+     */
+    public void insertSortShowNum(){
+        int compNum = 0;
+        int copyNum = 0;
+        int in, out;
+        for(out=1; out<nElems; out++){
+            long temp = a[out];
+            in = out;
+            while(in>0 && a[in-1]>=temp){
+                a[in] = a[in-1];
+                --in;
+                copyNum++;  // 发生了复制
+                compNum++;  // 每一次循环都有一次比较
+            }  // end while
+            compNum++;  // 循环结束有一次比较
+            a[in] = temp;
+            copyNum++;  // 发生了复制
+        }  // end for
+        System.out.println("共比较了"+compNum+"次");
+        System.out.println("共复制了"+copyNum+"次");
+    }  // end InsertSort()
+
     /** P78-T3.2
      * 返回数组的中间值
      * @return long  返回中间值
@@ -108,7 +132,6 @@ class ArrayInsert {
             }  // end if
         }  // end for
         int j;
-        int c = 0;
         for(j=0; j<nElems; j++){  // 填充或清零-1
             if(a[j] == -1){  // 遇到值为-1
                 int k;
@@ -119,14 +142,66 @@ class ArrayInsert {
                         break;
                     }  // end if
                 if(k == nElems)   // 从右边找不到非-1值
-                    for(int l=j; l<nElems; l++){  // 说明已经填充完毕，将后面的-1值都清零
-                        a[l] = 0;
-                        c++;
-                    }  // end for
+                    for(int l=j; a[l]==-1; l++){
+                        a[l]=0;
+                        nElems--;
+                    }  //end for
             }  // end if
         }  // end for
-        nElems -= c;  // 缩短数组范围
     }  // end noDups()
+
+    /** P79-T3.6
+     * 插入排序同时删除重复
+     */
+    public void insertSortNoDups(){
+        int in, rOut;
+        int lout = 0;
+
+        for(rOut=1; rOut<nElems; rOut++){
+            long temp = a[rOut];
+            in = rOut;
+            int dupFlag = 0;  // 出现重复标志位 0-否 1-是
+
+            while(in>lout && a[in-1]>=temp){  // = 保证了稳定性
+                if(a[in-1] == temp){
+                    dupFlag = 1;  // 如果出现重复值，将dupFlag置1并中断循环
+                    break;
+                }else{
+                    a[in] = a[in-1];  // 如果没出现重复值，则正常复制
+                    in--;
+                }
+            }  // end while
+
+            if(1 == dupFlag){  // 若出现重复值
+                while(in>lout){  // 将左边的数据都右移一位，腾出左边界处的空位
+                    a[in] = a[in-1];
+                    in--;
+                }
+                a[lout] = -1;  // 将-1赋值给左边界的空位
+                lout++;
+            }else
+                a[in] = temp;
+        }  // end for
+
+        // 共N步
+        for(int i=0; a[i]==-1; i++){  // 找到所有值为-1的位置
+            int j;
+            for(j=i; j<nElems; j++)  // 找到后面第一个值不为-1的位置与其交换
+                if(a[j] != -1){
+                    a[i] = a[j];
+                    a[j] = -1;
+                    break;
+                }  //end if
+            if(j == nElems){  // 若后面没有不为-1的位置
+                for(int k=i; a[k]==-1; k++){  // 将当前和后面的位置都清零并减小元素个数
+                    a[k] = 0;
+                    nElems--;
+                }
+                break;
+            }
+        }  // end for
+
+    }  // end InsertSort()
 
 }  // end ArrayInsert{}
 
@@ -145,6 +220,7 @@ class InsertSortApp{
 //        arr.insert(00);
 //        arr.insert(66);
 //        arr.insert(33);
+
         arr.insert(77);
         arr.insert(99);
         arr.insert(22);
@@ -157,11 +233,15 @@ class InsertSortApp{
         arr.insert(33);
         arr.display();
 
+        // 先排序，再删重
         arr.insertSort();
         arr.display();
-
         arr.noDups();
         arr.display();
+
+        // 在排序时直接删重
+//        arr.insertSortNoDups();
+//        arr.display();
     }  // end main()
 
 }  // end ArrayInsert{}
@@ -169,4 +249,10 @@ class InsertSortApp{
 /** 2020年4月28日
  77 99 44 55 22 88 11 0 66 33
  0 11 22 33 44 55 66 77 88 99
+ */
+
+/** 测试删除重复值
+ 77 99 22 55 22 22 66 0 66 33
+ 0 22 22 22 33 55 66 66 77 99
+ 0 22 33 55 66 77 99
  */
