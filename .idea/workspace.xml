@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df6c1f-1fe5-48fe-876a-f693f0cf717a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/cty/d_stackarray/BracketChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/d_stackarray/Reverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/d_stackarray/StackCharArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/d_stackarray/StackLongArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/e_queuearray/PriorityQLongArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/e_queuearray/QueueLongArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/e_queuearray/QueueLongArray2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/c_sortbase/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/c_sortbase/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/c_sortbase/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/c_sortbase/InsertSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +50,13 @@
       <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\c_sortbase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertSortApp">
-    <configuration name="ArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.a_array.ArrayApp" />
+  <component name="RunManager" selected="Application.PriorityQApp">
+    <configuration name="BracketApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.d_stackarray.BracketApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.a_array.*" />
+          <option name="PATTERN" value="com.cty.d_stackarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.c_sortbase.BubbleSortApp" />
+    <configuration name="PriorityQApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.e_queuearray.PriorityQApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.c_sortbase.*" />
+          <option name="PATTERN" value="com.cty.e_queuearray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.c_sortbase.InsertSortApp" />
+    <configuration name="QueueApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.e_queuearray.QueueApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.c_sortbase.*" />
+          <option name="PATTERN" value="com.cty.e_queuearray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdArrayApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.b_ordarray.OrdArrayApp" />
+    <configuration name="QueueApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.e_queuearray.QueueApp2" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.b_ordarray.*" />
+          <option name="PATTERN" value="com.cty.e_queuearray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.c_sortbase.SelectSortApp" />
+    <configuration name="ReverseAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.d_stackarray.ReverseAPP" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.c_sortbase.*" />
+          <option name="PATTERN" value="com.cty.d_stackarray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsertSortApp" />
-        <item itemvalue="Application.BubbleSortApp" />
-        <item itemvalue="Application.SelectSortApp" />
-        <item itemvalue="Application.ArrayApp" />
-        <item itemvalue="Application.OrdArrayApp" />
+        <item itemvalue="Application.PriorityQApp" />
+        <item itemvalue="Application.QueueApp2" />
+        <item itemvalue="Application.QueueApp" />
+        <item itemvalue="Application.BracketApp" />
+        <item itemvalue="Application.ReverseAPP" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +152,9 @@
       <workItem from="1587860940354" duration="43747000" />
       <workItem from="1587979831884" duration="1140000" />
       <workItem from="1588042934551" duration="21165000" />
-      <workItem from="1588120208374" duration="11675000" />
+      <workItem from="1588120208374" duration="12840000" />
+      <workItem from="1588143809491" duration="9429000" />
+      <workItem from="1588219793107" duration="8177000" />
     </task>
     <servers />
   </component>
@@ -155,46 +162,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1588132993942">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1588239657235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588132993942" />
-    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1588132993942">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588239657235" />
+    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1588239657235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588132993942" />
-    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1588132993942">
+    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588239657235" />
+    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1588239657235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588132993942" />
-    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1588132993942">
+    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588239657235" />
+    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1588239657235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588132993942" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588126610708">
+    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588239657235" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1588239651590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588126610708" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1588126610708">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588239651590" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1588239651590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588126610708" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1588126610708">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588239651590" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1588239651590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588126610708" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1588126610708">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588239651590" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1588239651590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588126610708" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588120527932">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588239651590" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588219819119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588120527932" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587975853449">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588219819119" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588159712333">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587975853449" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588159712333" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -208,6 +215,11 @@
           <url>file://$PROJECT_DIR$/src/com/cty/c_sortbase/BubbleSort.java</url>
           <line>164</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cty/e_queuearray/PriorityQLongArray.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
