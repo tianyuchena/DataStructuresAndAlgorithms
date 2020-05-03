@@ -182,7 +182,7 @@ public class OrdArray {
         }  // end else
     }  // end insert()
 
-    /**  P50-T2.4-2
+    /**  P50-T2.4-1
      * 有序二分法插入-二分法查找，在合适的位置插入
      * @param value 待插入值
      * @return boolean

@@ -1,9 +1,17 @@
-package com.cty.e_queuearray;
+package com.cty.g_priorityqarray;
 
 /**
  * @Auther: cty
  * @Date: 2020/4/30 17:14
- * @Description: 优先级队列
+ * @Description: 优先级队列  逆序插入，删除顶部
+ * 时间复杂度分析：
+ *      insert  s=N/2  O(N)
+ *      remove  O(1)
+ * 队列实现：
+ *      数组
+ *      堆
+ * 队列的应用：
+ *
  * @version: 1.0
  */
 public class PriorityQLongArray {
