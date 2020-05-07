@@ -2,29 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df6c1f-1fe5-48fe-876a-f693f0cf717a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/DoublyLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/FirstLastList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkListIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/OrdLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/OrdLinkListSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/QueueLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/StackLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/d_stackarray/StackLongArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/d_stackarray/StackLongArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkListIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -180,7 +180,7 @@
       <workItem from="1588556101885" duration="11155000" />
       <workItem from="1588647002712" duration="16751000" />
       <workItem from="1588749218370" duration="24780000" />
-      <workItem from="1588811290163" duration="1020000" />
+      <workItem from="1588811290163" duration="11188000" />
     </task>
     <servers />
   </component>
@@ -200,38 +200,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="89" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588680247257" />
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom" timestamp="1588783277424">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1588835232812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588783277424" />
-    <state width="1493" height="130" key="GridCell.Tab.0.center" timestamp="1588783277424">
+    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588835232812" />
+    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1588835232812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588783277424" />
-    <state width="1493" height="130" key="GridCell.Tab.0.left" timestamp="1588783277424">
+    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588835232812" />
+    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1588835232812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588783277424" />
-    <state width="1493" height="130" key="GridCell.Tab.0.right" timestamp="1588783277424">
+    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588835232812" />
+    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1588835232812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588783277424" />
-    <state width="1493" height="130" key="GridCell.Tab.1.bottom" timestamp="1588783277425">
+    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588835232812" />
+    <state width="1493" height="195" key="GridCell.Tab.1.bottom" timestamp="1588834870456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588783277425" />
-    <state width="1493" height="130" key="GridCell.Tab.1.center" timestamp="1588783277425">
+    <state width="1493" height="195" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588834870456" />
+    <state width="1493" height="195" key="GridCell.Tab.1.center" timestamp="1588834870456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588783277425" />
-    <state width="1493" height="130" key="GridCell.Tab.1.left" timestamp="1588783277425">
+    <state width="1493" height="195" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588834870456" />
+    <state width="1493" height="195" key="GridCell.Tab.1.left" timestamp="1588834870456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588783277425" />
-    <state width="1493" height="130" key="GridCell.Tab.1.right" timestamp="1588783277425">
+    <state width="1493" height="195" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588834870456" />
+    <state width="1493" height="195" key="GridCell.Tab.1.right" timestamp="1588834870456">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="130" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588783277425" />
+    <state width="1493" height="195" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588834870456" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1588506740701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -252,9 +252,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="30" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1588496793167" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588669349851">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588814976098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588669349851" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588814976098" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise6.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="lists" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

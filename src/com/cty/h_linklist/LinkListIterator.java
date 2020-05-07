@@ -23,7 +23,7 @@ public class LinkListIterator {
 
     public void resetRight()  // 二维链表（矩阵）使用
     {
-        currentRight = current;
+        currentRight = ourList.getFirst();
         previousRight = null;
     }
 
@@ -49,9 +49,9 @@ public class LinkListIterator {
         return (current.next == null);
     }
 
-    public boolean atEndRight()  // 二维链表（矩阵）使用
+    public boolean atRightEnd()  // 二维链表（矩阵）使用
     {
-        return (currentRight.next == null);
+        return (currentRight.nextRight == null);
     }
 
     public void nextLink()
@@ -87,9 +87,9 @@ public class LinkListIterator {
     {
         Link newLink = new Link(d);
 
-        if(current.nextRight == null)
+        if(ourList.isEmpty())
         {
-            current.nextRight = newLink;
+            ourList.setFirst(newLink);
             currentRight = newLink;
         }
         else
@@ -98,7 +98,6 @@ public class LinkListIterator {
             currentRight.nextRight = newLink;
             nexRightLink();
         }
-
     }  // end method insertRightAfter
 
     public void insertBefore(long d)
@@ -145,6 +144,18 @@ public class LinkListIterator {
             return temp;
         }
     }  // end method deleteCurrent
+
+    public void displayRightList()
+    {
+        resetRight();
+        while(!atRightEnd())
+        {
+            currentRight.displayLink();
+            nexRightLink();
+        }
+        currentRight.displayLink();
+        System.out.println("");
+    }
 
 }  // end class LinkListIterator
 

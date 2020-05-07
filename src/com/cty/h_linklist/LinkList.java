@@ -6,23 +6,6 @@ package com.cty.h_linklist;
  * @Description: 单链表
  * @version: 1.0
  */
-//class Link {
-//    public int iData;
-//    public double dData;
-//    public Link next;
-//
-//    public Link(int id, double dd)
-//    {
-//        iData = id;
-//        dData = dd;
-//    }
-//
-//    public void displayLink()
-//    {
-//        System.out.print("{" + iData + ", " + dData + "} ");
-//    }
-//}  // end class Link
-
 public class LinkList
 {
     private Link first;
@@ -122,7 +105,7 @@ public class LinkList
     }  // end method delete
 
     /**
-     * 遍历显示所有节点
+     * 遍历显示所有节点（沿着next方向）
      */
     public void displayList()
     {
@@ -134,6 +117,20 @@ public class LinkList
         }
         System.out.println("");
     }
+
+//    /**
+//     * 遍历显示所有节点（沿着nextRight方向）
+//     */
+//    public void displayRightList()
+//    {
+//        Link currentRight = first;
+//        while(currentRight != null)
+//        {
+//            currentRight.displayLink();
+//            currentRight = currentRight.nextRight;
+//        }
+//        System.out.println("");
+//    }
 
     /*************************************************************************/
     // 为迭代器新增方法
