@@ -37,7 +37,16 @@
     * PriorityQLongArray : 长整型数组实现慢插入快删除队列
     * PriorityQLongArray2 : 长整型数组实现慢删除快插入队列（P129-T4.4）
     
-    
+8. com.cty.h_linklist : 链表
+    * Link : 链节点
+    * LinkList : 单链表
+        * StackLinkList : 单链表实现栈
+        * LinkListIterator : 单链表迭代器
+    * FirstLastList : 双端链表
+    * OrdLinkList : 有序链表
+        * OrdLinkListSort : 通过有序链表对数组进行插入排序
+    * DoublyLinkList : 双向链表
+    * exercise : P187-5.1 ~ P187-5.6
 
 #### 运行环境
 

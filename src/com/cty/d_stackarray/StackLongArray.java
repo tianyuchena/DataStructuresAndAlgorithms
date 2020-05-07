@@ -77,5 +77,5 @@ class StackApp{
             System.out.print(theStack.pop()+" ");
         }
         System.out.println("");
-    }
+    }  // end method main
 }  // end class StackApp
