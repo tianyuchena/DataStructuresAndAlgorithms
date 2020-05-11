@@ -47,6 +47,23 @@
         * OrdLinkListSort : 通过有序链表对数组进行插入排序
     * DoublyLinkList : 双向链表
     * exercise : P187-5.1 ~ P187-5.6
+    
+9. com.cty.i_recursion : 递归
+    * Triangle : 三角数字
+    * Factorial : 阶乘
+    * Anagram : 变位字（单词全排列）
+    * BinarySearch : 二分法查找
+    * Towers : 汉诺塔
+    * MergeSort : 归并排序
+    * exercise : 
+        * Exercise1 : P237-T6.1 加法通过递归实现乘法
+        * Exercise2 : P237-T6.2 画二叉树 
+        * Exercise3 : P237-T6.3 测试乘方     
+            * Power : 乘方实现类
+        * Exercise4 : P237-T6.4 测试背包问题
+            * Backpack : 背包问题实现类
+        * Exercise5 : P237-T6.5 测试组合问题
+            * Combination : 组合问题实现类
 
 #### 运行环境
 

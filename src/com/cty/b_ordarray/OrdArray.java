@@ -243,29 +243,17 @@ public class OrdArray {
      * 时间复杂度分析：
      *      s=N/2  O(N)
      */
-    public boolean deleteByIndex(int i){
-        if((i>=a.length) || (i<0)){
-            System.out.println("删除失败-索引超出数组范围");
-            return false;  // case 1 false-索引超出数组范围
-        }else if(i >= nElems){
-            System.out.println("删除失败-索引位置为空值");
-            return false;  // case 2 false-索引位置为空值
-        }else{
-            if(nElems == a.length){  // 数组已满
-                int j;
-                for(j=i; j<nElems-1; j++){  // 高位下移，填充空位
-                    a[j] = a[j+1];
-                }
-                a[j] = 0;  // long类型默认值为0
-                nElems--;
-            }else{
-                int j;
-                for(j=i; j<nElems; j++){  // 高位下移，填充空位
-                    a[j] = a[j+1];
-                }  // end for
-                nElems--;
-            }  // end else
-            return true;  // case 3 true-删除成功
+    public boolean deleteByIndex(int index){
+        if(index<0 || index>nElems)
+            return false;  // 删除失败-数组为空、索引对应值为空或索引超出范围
+        else
+        {
+            int i;
+            for(i=index; i<nElems-1; i++)
+                a[i] = a[i+1];
+            a[i] = 0;  // long数据类型的默认值是0
+            nElems--;
+            return true;
         }  // end else
     }  // end deleteByIndex()
 

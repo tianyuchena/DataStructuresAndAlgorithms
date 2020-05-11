@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df6c1f-1fe5-48fe-876a-f693f0cf717a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/BinarySrearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/Towers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Backpack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Power.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkListIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/LinkListIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cty/a_array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/a_array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cty/b_ordarray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/b_ordarray/OrdArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +84,26 @@
       <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\c_sortbase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise6">
-    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.h_linklist.exercise.Exercise2" />
+  <component name="RunManager" selected="Application.Exercise5">
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.exercise.Exercise1" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.h_linklist.exercise.*" />
+          <option name="PATTERN" value="com.cty.i_recursion.exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.exercise.Exercise2" />
+      <module name="DataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cty.i_recursion.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,24 +112,11 @@
       </method>
     </configuration>
     <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.h_linklist.exercise.Exercise3" />
+      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.exercise.Exercise3" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.h_linklist.exercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.h_linklist.exercise.Exercise4" />
-      <module name="DataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cty.h_linklist.exercise.*" />
+          <option name="PATTERN" value="com.cty.i_recursion.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +125,11 @@
       </method>
     </configuration>
     <configuration name="Exercise5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.h_linklist.exercise.Exercise5" />
+      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.exercise.Exercise5" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.h_linklist.exercise.*" />
+          <option name="PATTERN" value="com.cty.i_recursion.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.h_linklist.exercise.Exercise6" />
+    <configuration name="Towers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.Towers" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.h_linklist.exercise.*" />
+          <option name="PATTERN" value="com.cty.i_recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise6" />
         <item itemvalue="Application.Exercise5" />
-        <item itemvalue="Application.Exercise4" />
         <item itemvalue="Application.Exercise3" />
         <item itemvalue="Application.Exercise2" />
+        <item itemvalue="Application.Exercise1" />
+        <item itemvalue="Application.Towers" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +195,14 @@
       <workItem from="1588556101885" duration="11155000" />
       <workItem from="1588647002712" duration="16751000" />
       <workItem from="1588749218370" duration="24780000" />
-      <workItem from="1588811290163" duration="11188000" />
+      <workItem from="1588811290163" duration="14354000" />
+      <workItem from="1588899740819" duration="4507000" />
+      <workItem from="1588920280905" duration="9096000" />
+      <workItem from="1588939737146" duration="112000" />
+      <workItem from="1588990164066" duration="29208000" />
+      <workItem from="1589070998704" duration="16000" />
+      <workItem from="1589112819153" duration="2217000" />
+      <workItem from="1589158722234" duration="9016000" />
     </task>
     <servers />
   </component>
@@ -188,58 +210,62 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1588751234099">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1589027137275">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1588751234099" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589027137275" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588562656323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588562656323" />
-    <state x="89" y="260" key="FileChooserDialogImpl" timestamp="1588680247257">
+    <state x="89" y="260" key="FileChooserDialogImpl" timestamp="1589071008799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="89" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588680247257" />
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom" timestamp="1588835232812">
+    <state x="89" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589071008799" />
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1589167623484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588835232812" />
-    <state width="1493" height="207" key="GridCell.Tab.0.center" timestamp="1588835232812">
+    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589167623484" />
+    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1589167623484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588835232812" />
-    <state width="1493" height="207" key="GridCell.Tab.0.left" timestamp="1588835232812">
+    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589167623484" />
+    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1589167623484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588835232812" />
-    <state width="1493" height="207" key="GridCell.Tab.0.right" timestamp="1588835232812">
+    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589167623484" />
+    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1589167623484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588835232812" />
-    <state width="1493" height="195" key="GridCell.Tab.1.bottom" timestamp="1588834870456">
+    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589167623484" />
+    <state width="1493" height="195" key="GridCell.Tab.1.bottom" timestamp="1589165102254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588834870456" />
-    <state width="1493" height="195" key="GridCell.Tab.1.center" timestamp="1588834870456">
+    <state width="1493" height="195" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589165102254" />
+    <state width="1493" height="195" key="GridCell.Tab.1.center" timestamp="1589165102254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588834870456" />
-    <state width="1493" height="195" key="GridCell.Tab.1.left" timestamp="1588834870456">
+    <state width="1493" height="195" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589165102254" />
+    <state width="1493" height="195" key="GridCell.Tab.1.left" timestamp="1589165102254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588834870456" />
-    <state width="1493" height="195" key="GridCell.Tab.1.right" timestamp="1588834870456">
+    <state width="1493" height="195" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589165102254" />
+    <state width="1493" height="195" key="GridCell.Tab.1.right" timestamp="1589165102254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588834870456" />
+    <state width="1493" height="195" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589165102254" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1588506740701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588506740701" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1588811291841">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589158725902">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1588811291841" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589158725902" />
+    <state x="447" y="19" width="642" height="786" key="find.popup" timestamp="1588990181655">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="447" y="19" width="642" height="786" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1588990181655" />
     <state x="178" y="22" key="new project wizard" timestamp="1588593341129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -252,21 +278,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="30" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1588496793167" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1588901665642">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588901665642" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588814976098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588814976098" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/cty/h_linklist/exercise/Exercise6.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="lists" language="JAVA" />

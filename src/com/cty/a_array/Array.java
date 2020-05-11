@@ -34,7 +34,7 @@ public class Array {
         for(int i=0; i<nElems; i++){
             System.out.print(a[i]+" ");
         }  // end for
-        System.out.println("");
+//        System.out.println("");
     }  // end display()
 
     /**
