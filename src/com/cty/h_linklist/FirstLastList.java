@@ -41,11 +41,16 @@ public class FirstLastList
      */
     public long deleteFirst()
     {
-        long temp = first.dData;
-        if(null == first.next)
-            last = null;
-        first = first.next;
-        return temp;
+        if(isEmpty())
+            return -1;
+        else
+        {
+            long temp = first.dData;
+            if(null == first.next)
+                last = null;
+            first = first.next;
+            return temp;
+        }
     }
 
     /**

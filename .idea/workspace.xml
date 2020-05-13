@@ -2,25 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df6c1f-1fe5-48fe-876a-f693f0cf717a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/BinarySrearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/Towers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Backpack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Combination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Exercise5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/i_recursion/exercise/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/j_sortpro/PartitionApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/j_sortpro/QuickSortApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/j_sortpro/ShellSortApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/j_sortpro/exercise/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/j_sortpro/exercise/Exercise2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/j_sortpro/exercise/Exercise3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/j_sortpro/exercise/Exercise4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/j_sortpro/exercise/Exercise5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/a_array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/a_array/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cty/b_ordarray/OrdArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/b_ordarray/OrdArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cty/h_linklist/FirstLastList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/h_linklist/FirstLastList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/cty/j_sortpro/exercise" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -81,16 +72,18 @@
       <recent name="com.cty.array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\j_sortpro\exercise" />
+      <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\j_sortpro" />
       <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\c_sortbase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise5">
-    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.exercise.Exercise1" />
+  <component name="RunManager" selected="Application.RadixSortApp">
+    <configuration name="FindKInApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.j_sortpro.exercise.FindKInApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.i_recursion.exercise.*" />
+          <option name="PATTERN" value="com.cty.j_sortpro.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.exercise.Exercise2" />
+    <configuration name="FindMedianApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.j_sortpro.exercise.FindMedianApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.i_recursion.exercise.*" />
+          <option name="PATTERN" value="com.cty.j_sortpro.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.exercise.Exercise3" />
+    <configuration name="PartitionApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.j_sortpro.exercise.PartitionApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.i_recursion.exercise.*" />
+          <option name="PATTERN" value="com.cty.j_sortpro.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.exercise.Exercise5" />
+    <configuration name="QuickSortApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.j_sortpro.exercise.QuickSortApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.i_recursion.exercise.*" />
+          <option name="PATTERN" value="com.cty.j_sortpro.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Towers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.i_recursion.Towers" />
+    <configuration name="RadixSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.j_sortpro.exercise.RadixSortApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.i_recursion.*" />
+          <option name="PATTERN" value="com.cty.j_sortpro.exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise5" />
-        <item itemvalue="Application.Exercise3" />
-        <item itemvalue="Application.Exercise2" />
-        <item itemvalue="Application.Exercise1" />
-        <item itemvalue="Application.Towers" />
+        <item itemvalue="Application.RadixSortApp" />
+        <item itemvalue="Application.FindKInApp" />
+        <item itemvalue="Application.FindMedianApp" />
+        <item itemvalue="Application.QuickSortApp (1)" />
+        <item itemvalue="Application.PartitionApp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +195,9 @@
       <workItem from="1588990164066" duration="29208000" />
       <workItem from="1589070998704" duration="16000" />
       <workItem from="1589112819153" duration="2217000" />
-      <workItem from="1589158722234" duration="9016000" />
+      <workItem from="1589158722234" duration="17189000" />
+      <workItem from="1589252797974" duration="46000" />
+      <workItem from="1589331594880" duration="24791000" />
     </task>
     <servers />
   </component>
@@ -210,58 +205,58 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1589027137275">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1589362401732">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589027137275" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589362401732" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588562656323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1588562656323" />
-    <state x="89" y="260" key="FileChooserDialogImpl" timestamp="1589071008799">
+    <state x="89" y="260" key="FileChooserDialogImpl" timestamp="1589252841180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="89" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589071008799" />
-    <state width="1493" height="254" key="GridCell.Tab.0.bottom" timestamp="1589167623484">
+    <state x="89" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589252841180" />
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom" timestamp="1589384532565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589167623484" />
-    <state width="1493" height="254" key="GridCell.Tab.0.center" timestamp="1589167623484">
+    <state width="1493" height="241" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589384532565" />
+    <state width="1493" height="241" key="GridCell.Tab.0.center" timestamp="1589384532565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589167623484" />
-    <state width="1493" height="254" key="GridCell.Tab.0.left" timestamp="1589167623484">
+    <state width="1493" height="241" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589384532565" />
+    <state width="1493" height="241" key="GridCell.Tab.0.left" timestamp="1589384532565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589167623484" />
-    <state width="1493" height="254" key="GridCell.Tab.0.right" timestamp="1589167623484">
+    <state width="1493" height="241" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589384532565" />
+    <state width="1493" height="241" key="GridCell.Tab.0.right" timestamp="1589384532565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="254" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589167623484" />
-    <state width="1493" height="195" key="GridCell.Tab.1.bottom" timestamp="1589165102254">
+    <state width="1493" height="241" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589384532565" />
+    <state width="1493" height="195" key="GridCell.Tab.1.bottom" timestamp="1589384110684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589165102254" />
-    <state width="1493" height="195" key="GridCell.Tab.1.center" timestamp="1589165102254">
+    <state width="1493" height="195" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589384110684" />
+    <state width="1493" height="195" key="GridCell.Tab.1.center" timestamp="1589384110683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589165102254" />
-    <state width="1493" height="195" key="GridCell.Tab.1.left" timestamp="1589165102254">
+    <state width="1493" height="195" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1589384110683" />
+    <state width="1493" height="195" key="GridCell.Tab.1.left" timestamp="1589384110683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589165102254" />
-    <state width="1493" height="195" key="GridCell.Tab.1.right" timestamp="1589165102254">
+    <state width="1493" height="195" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1589384110683" />
+    <state width="1493" height="195" key="GridCell.Tab.1.right" timestamp="1589384110684">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589165102254" />
+    <state width="1493" height="195" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1589384110684" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1588506740701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588506740701" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589158725902">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1589252796950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589158725902" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1589252796950" />
     <state x="447" y="19" width="642" height="786" key="find.popup" timestamp="1588990181655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

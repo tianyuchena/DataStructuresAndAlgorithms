@@ -65,6 +65,12 @@
         * Exercise5 : P237-T6.5 测试组合问题
             * Combination : 组合问题实现类
 
+10. com.cty.j_sortpro : 高级排序
+    * SellSortApp : 希尔排序
+    * PartitionApp : 划分
+    * QuickSortApp : 快速排序
+    * exercise : P275-T7.1 ~ P276-T7.5
+
 #### 运行环境
 
 1.  jdk-1.7
