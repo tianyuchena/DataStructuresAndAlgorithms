@@ -6,7 +6,7 @@ import com.cty.h_linklist.OrdLinkList;
 /**
  * @Auther: cty
  * @Date: 2020/5/6 15:18
- * @Description: 实现一个基于有序列表的双端队列  P187-5.1
+ * @Description: 实现一个基于有序链表的优先级队列  P187-5.1
  * @version: 1.0
  */
 public class Exercise1 {
