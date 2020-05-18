@@ -74,7 +74,7 @@
 11. com.cty.k_bianarytree : 二叉树
     * BinaryTree : 二叉搜索树
     * exercise : P321-T8.1 ~ P322-T8.3
-        * Exercise5 : 哈夫曼编码
+        * Exercise5 : P322-T8.5 哈夫曼编码
 
 #### 运行环境
 
