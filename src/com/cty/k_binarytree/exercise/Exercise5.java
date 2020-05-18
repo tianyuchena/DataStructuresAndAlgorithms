@@ -19,7 +19,7 @@ class Exercise5App
 
         // 2 创建哈夫曼树和生成编码表
         tree.createHuffmanTree(strs);
-        // tree.displayTree();  // 显示哈夫曼树
+         tree.displayTree();  // 显示哈夫曼树
         tree.displayCodeArray();  // 显示编码表
 
         // 3 编码
@@ -38,6 +38,15 @@ class Exercise5App
      * 请输入待处理信息（空行输入q或Q结束，最多输入5行）：
      * SUSIE SAYS IT IS EASY
      * q
+     * ⭐哈夫曼树如下：
+     * ............................................................
+     *                                 ⚪
+     *                 ⚪                              ⚪
+     *         SP              ⚪              S               ⚪
+     *     --      --      A       ⚪      --      --      I       ⚪
+     *   --  --  --  --  --  --  LF  ⚪  --  --  --  --  --  --  Y   E
+     *  ----------------------------U T --------------------------------
+     * ............................................................
      * ⭐编码表如下：
      * 字符 频次 编码
      * LF	1	0110
@@ -245,7 +254,7 @@ class HuffmanTree {
      */
     public void displayTree()
     {
-       System.out.println("哈夫曼树如下：");
+       System.out.println("⭐哈夫曼树如下：");
 
         Stack globalStack = new Stack();
         globalStack.push(root);
