@@ -3,7 +3,7 @@ package com.cty.h_linklist;
 /**
  * @Auther: cty
  * @Date: 2020/5/5 14:08
- * @Description: 双向队列
+ * @Description: 双向链表
  * @version: 1.0
  */
 public class DoublyLinkList
