@@ -70,6 +70,11 @@
     * PartitionApp : 划分
     * QuickSortApp : 快速排序
     * exercise : P275-T7.1 ~ P276-T7.5
+    
+11. com.cty.k_bianarytree : 二叉树
+    * BinaryTree : 二叉搜索树
+    * exercise : P321-T8.1 ~ P322-T8.3
+        * Exercise5 : 哈夫曼编码
 
 #### 运行环境
 

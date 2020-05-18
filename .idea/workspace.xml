@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df6c1f-1fe5-48fe-876a-f693f0cf717a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/BinaryTreeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/Pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/exercise/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/exercise/Exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/exercise/Exercise3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/exercise/Exercise5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/exercise/Exercise5Class.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/exercise/FirstLastList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/k_binarytree/exercise/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +194,7 @@
       <workItem from="1589546389283" duration="8498000" />
       <workItem from="1589636652939" duration="3585000" />
       <workItem from="1589682606265" duration="30846000" />
-      <workItem from="1589763621442" duration="4098000" />
+      <workItem from="1589763621442" duration="4964000" />
     </task>
     <servers />
   </component>
