@@ -17,7 +17,7 @@ class Pojo
         this.dData = dData;
     }
 
-    public long getKey() {
+    public int getKey() {
         return key;
     }
 

@@ -75,6 +75,17 @@
     * BinaryTree : 二叉搜索树
     * exercise : P321-T8.1 ~ P322-T8.3
         * Exercise5 : P322-T8.5 哈夫曼编码
+        
+12. com.cty.l_234tree : 234树
+
+13. com.cty.m_hashtable : 哈希表
+    * openaddress : 开放地址法的哈希表
+        * HashTable : 线性探测法
+        * HashTable2 : 二次探测法  P432-T11.1
+        * HashTable3 : 再哈希法
+    * chainaddress.HashTable : 连地址法的哈希表
+    * exercise : P433-T11.2 ~ P433-T11.5
+
 
 #### 运行环境
 
