@@ -12,7 +12,7 @@ public class Node
     private int numItems;
     private Node parent;
     private Node[] childArray = new Node[ORDER];
-    private DataItem[] itemArray = new DataItem[ORDER];
+    private DataItem[] itemArray = new DataItem[ORDER-1];
 
     /** * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
      * 数据项操作：
@@ -80,7 +80,7 @@ public class Node
     }
 
     /**
-     * 向数据数组中插入一个数据项，返回插入的索引位置，数组已满则返回-1
+     * 向数据数组中有序插入一个数据项，返回插入的索引位置，数组已满则返回-1
      * @param newItem
      * @return
      */
@@ -104,7 +104,7 @@ public class Node
                     return i+1;
                 }
             }  // end for
-            itemArray[0] = newItem;
+            itemArray[0] = newItem;  // 此时i=0
             numItems++;
             return i+1;
         }  // end else

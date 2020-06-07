@@ -74,6 +74,8 @@ class ListQuickSort
 
     /**
      * 快速排序
+     * 时间复杂度分析：
+     *      O(N*logN)
      */
     public void quickSort()
     {

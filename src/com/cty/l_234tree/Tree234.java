@@ -10,7 +10,7 @@ import javax.xml.crypto.Data;
  */
 public class Tree234
 {
-    private Node root = new Node();
+    protected Node root = new Node();
 
     /**
      * 根据关键字值获取指定节点相应的子节点
@@ -41,11 +41,11 @@ public class Tree234
 
         while(true)
         {
-            if((childNumber=curNode.findItem(key)) != -1)
+            if((childNumber=curNode.findItem(key)) != -1)  // -1代表节点为空或数据不存在，不是-1说明查找成功
                 return childNumber;
-            else if(curNode.isLeaf())
+            else if(curNode.isLeaf())  // 遇到叶子节点，查找失败
                 return -1;
-            else
+            else  // 当前非叶子节点，则走向下一个子节点
                 curNode = getNextNode(curNode, key);
         }  // end while
     }  // end method find
@@ -66,12 +66,12 @@ public class Tree234
             {
                 split(curNode);
                 curNode = curNode.getParent();
-                curNode = getNextNode(curNode, value);
+                curNode = getNextNode(curNode, value);  // 父节点一定有子节点
             }
-            else if(curNode.isLeaf())
+            else if(curNode.isLeaf())  // 遇到非满子节点，即为待插入位置
                 break;
             else
-                curNode = getNextNode(curNode, value);
+                curNode = getNextNode(curNode, value);  // 不是叶子节点，即有子节点，继续向下查找
         }
 
         // 插入
@@ -87,10 +87,10 @@ public class Tree234
         // 声明或存储待处理节点和数据
         Node parent;
         Node rightNode = new Node();  // 创建右边的兄弟节点
-        Node child2 = thisNode.getChild(2);
-        Node child3 = thisNode.getChild(3);
-        DataItem itemC = thisNode.removeItem();
-        DataItem itemB = thisNode.removeItem();
+        Node child2 = thisNode.getChild(2);  // 存放第三个子节点
+        Node child3 = thisNode.getChild(3);  // 存放第四个子节点
+        DataItem itemC = thisNode.removeItem();  // 移除第四个子节点
+        DataItem itemB = thisNode.removeItem();  // 移除第三个子节点
 
         // 获取父节点（两种情况，当前节点是否为root节点）
         if(thisNode == root)
@@ -139,9 +139,11 @@ public class Tree234
      */
     public void recDisplayTree(Node thisNode, int level, int childNumber)
     {
+        // 显示当前节点
         System.out.print("level="+level+" child="+childNumber+" ");
         thisNode.displayNode();
 
+        // 递归显示所有子节点
         int numItems = thisNode.getNumItems();
         for(int i=0; i<=numItems; i++)
         {
