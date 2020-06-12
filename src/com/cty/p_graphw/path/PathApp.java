@@ -25,7 +25,7 @@ public class PathApp {
         graph.addEdge(4, 1, 50);  // EB 50
 
         System.out.println("Shortest paths: ");
-        graph.path(0);
+        graph.path(0);  // 计算A到其他顶点的最小路径，可换起始顶点
 
     }  // end main()
 

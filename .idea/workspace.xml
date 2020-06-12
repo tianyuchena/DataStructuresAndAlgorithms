@@ -2,38 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df6c1f-1fe5-48fe-876a-f693f0cf717a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/bfs/BFSApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/bfs/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/bfs/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/bfs/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/dfs/DFSApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/dfs/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/dfs/StackX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/dfs/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/mst/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/mst/MSTApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/mst/StackX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/mst/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/topo/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/topo/TopoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/topo/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/warshell/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/warshell/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/warshell/WarshellApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/floyd/FloydApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/floyd/FloydApp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/floyd/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/floyd/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/MstwApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/PriorityQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/PathApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/Vertex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/WeightParent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cty/p_graphw/path/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cty/p_graphw/path/WeightParent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/DistPar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +77,7 @@
       <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\j_sortpro" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FloydApp2">
+  <component name="RunManager" selected="Application.PathApp">
     <configuration name="FloydApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cty.p_graphw.floyd.FloydApp" />
       <module name="DataStructuresAndAlgorithms" />
@@ -174,9 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathApp" />
         <item itemvalue="Application.FloydApp2" />
         <item itemvalue="Application.FloydApp" />
-        <item itemvalue="Application.PathApp" />
         <item itemvalue="Application.MstwApp" />
         <item itemvalue="Application.WarshellApp" />
       </list>
@@ -253,7 +224,7 @@
       <workItem from="1591666780470" duration="4278000" />
       <workItem from="1591792941575" duration="8058000" />
       <workItem from="1591840258078" duration="13726000" />
-      <workItem from="1591921222316" duration="20521000" />
+      <workItem from="1591921222316" duration="21512000" />
     </task>
     <servers />
   </component>
@@ -265,10 +236,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590736391407" />
-    <state x="319" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590398765314">
+    <state x="319" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1591973476890">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="319" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1590398765314" />
+    <state x="319" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1591973476890" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588562656323">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -277,22 +248,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="89" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590887245583" />
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1591951910090">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom" timestamp="1591972604799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591951910090" />
-    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1591951910090">
+    <state width="1493" height="176" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591972604799" />
+    <state width="1493" height="176" key="GridCell.Tab.0.center" timestamp="1591972604798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591951910090" />
-    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1591951910090">
+    <state width="1493" height="176" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591972604798" />
+    <state width="1493" height="176" key="GridCell.Tab.0.left" timestamp="1591972604798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591951910090" />
-    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1591951910090">
+    <state width="1493" height="176" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591972604798" />
+    <state width="1493" height="176" key="GridCell.Tab.0.right" timestamp="1591972604798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591951910090" />
+    <state width="1493" height="176" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591972604798" />
     <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1591946800930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

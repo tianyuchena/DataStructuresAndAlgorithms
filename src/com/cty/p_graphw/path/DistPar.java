@@ -6,12 +6,12 @@ package com.cty.p_graphw.path;
  * @Description: 权重和父顶点类
  * @version: 1.0
  */
-public class WeightParent {
-    public int weight;
+public class DistPar {
+    public int distance;
     public int parent;
 
-    public WeightParent(int weight, int parent){
-        this.weight = weight;
+    public DistPar(int distance, int parent){
+        this.distance = distance;
         this.parent = parent;
     }
 }
