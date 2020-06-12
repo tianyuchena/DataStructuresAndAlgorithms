@@ -2,10 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01df6c1f-1fe5-48fe-876a-f693f0cf717a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/cty/n_heap/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/n_heap/HeapApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/n_heap/HeapSortApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/cty/n_heap/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/bfs/BFSApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/bfs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/bfs/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/bfs/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/dfs/DFSApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/dfs/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/dfs/StackX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/dfs/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/mst/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/mst/MSTApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/mst/StackX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/mst/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/topo/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/topo/TopoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/topo/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/warshell/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/warshell/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/o_graph/warshell/WarshellApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/floyd/FloydApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/floyd/FloydApp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/floyd/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/floyd/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/Edge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/MstwApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/PriorityQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/mstw/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/PathApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/Vertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/cty/p_graphw/path/WeightParent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,31 +87,32 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/cty/o_graph/mst" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cty.p_graphw.floyd" />
+      <recent name="com.cty.o_graph.warshell" />
+      <recent name="com.cty.o_graph.bfs" />
       <recent name="com.cty.m_hashtable.Exercise" />
       <recent name="com.cty.m_hashtable.openaddress" />
-      <recent name="com.cty.m_hashtable" />
-      <recent name="com.cty.array" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\o_graph\mst" />
       <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\m_hashtable\Exercise" />
       <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\k_binarytree\exercise" />
       <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\j_sortpro\exercise" />
       <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\j_sortpro" />
-      <recent name="E:\JAVAXX\IdeaProjects\DataStructuresAndAlgorithms\src\com\cty\c_sortbase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapSortApp">
-    <configuration name="BinaryTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.k_binarytree.BinaryTreeApp" />
+  <component name="RunManager" selected="Application.FloydApp2">
+    <configuration name="FloydApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.p_graphw.floyd.FloydApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.k_binarytree.*" />
+          <option name="PATTERN" value="com.cty.p_graphw.floyd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.l_234tree.exercise.Exercise1" />
+    <configuration name="FloydApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.p_graphw.floyd.FloydApp2" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.l_234tree.exercise.*" />
+          <option name="PATTERN" value="com.cty.p_graphw.floyd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.n_heap.HeapApp" />
+    <configuration name="MstwApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.p_graphw.mstw.MstwApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.n_heap.*" />
+          <option name="PATTERN" value="com.cty.p_graphw.mstw.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSortApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.n_heap.HeapSortApp" />
+    <configuration name="PathApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.p_graphw.path.PathApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.n_heap.*" />
+          <option name="PATTERN" value="com.cty.p_graphw.path.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tree234App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cty.l_234tree.Tree234App" />
+    <configuration name="WarshellApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cty.o_graph.warshell.WarshellApp" />
       <module name="DataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cty.l_234tree.*" />
+          <option name="PATTERN" value="com.cty.o_graph.warshell.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapSortApp" />
-        <item itemvalue="Application.HeapApp" />
-        <item itemvalue="Application.BinaryTreeApp" />
-        <item itemvalue="Application.Exercise1" />
-        <item itemvalue="Application.Tree234App" />
+        <item itemvalue="Application.FloydApp2" />
+        <item itemvalue="Application.FloydApp" />
+        <item itemvalue="Application.PathApp" />
+        <item itemvalue="Application.MstwApp" />
+        <item itemvalue="Application.WarshellApp" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +249,11 @@
       <workItem from="1590887234733" duration="13000" />
       <workItem from="1591528082097" duration="7187000" />
       <workItem from="1591582920744" duration="141000" />
-      <workItem from="1591602877434" duration="9376000" />
+      <workItem from="1591602877434" duration="10412000" />
+      <workItem from="1591666780470" duration="4278000" />
+      <workItem from="1591792941575" duration="8058000" />
+      <workItem from="1591840258078" duration="13726000" />
+      <workItem from="1591921222316" duration="20521000" />
     </task>
     <servers />
   </component>
@@ -245,70 +277,70 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="89" y="260" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590887245583" />
-    <state width="1493" height="282" key="GridCell.Tab.0.bottom" timestamp="1591619692057">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1591951910090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591619692057" />
-    <state width="1493" height="282" key="GridCell.Tab.0.center" timestamp="1591619692057">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591951910090" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1591951910090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="282" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591619692057" />
-    <state width="1493" height="282" key="GridCell.Tab.0.left" timestamp="1591619692057">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591951910090" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1591951910090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="282" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591619692057" />
-    <state width="1493" height="282" key="GridCell.Tab.0.right" timestamp="1591619692057">
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591951910090" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1591951910090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="282" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591619692057" />
-    <state width="1493" height="234" key="GridCell.Tab.1.bottom" timestamp="1591619319350">
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591951910090" />
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom" timestamp="1591946800930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591619319350" />
-    <state width="1493" height="234" key="GridCell.Tab.1.center" timestamp="1591619319350">
+    <state width="1493" height="255" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591946800930" />
+    <state width="1493" height="255" key="GridCell.Tab.1.center" timestamp="1591946800930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591619319350" />
-    <state width="1493" height="234" key="GridCell.Tab.1.left" timestamp="1591619319350">
+    <state width="1493" height="255" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591946800930" />
+    <state width="1493" height="255" key="GridCell.Tab.1.left" timestamp="1591946800930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591619319350" />
-    <state width="1493" height="234" key="GridCell.Tab.1.right" timestamp="1591619319350">
+    <state width="1493" height="255" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591946800930" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right" timestamp="1591946800930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591619319350" />
+    <state width="1493" height="255" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591946800930" />
     <state x="270" y="54" key="SettingsEditor" timestamp="1588506740701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588506740701" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591582920669">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591921222109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591582920669" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591921222109" />
     <state x="447" y="19" width="642" height="786" key="find.popup" timestamp="1588990181655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="447" y="19" width="642" height="786" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1588990181655" />
-    <state x="178" y="22" key="new project wizard" timestamp="1591583046347">
+    <state x="270" y="45" key="new project wizard" timestamp="1591667704744">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="178" y="22" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591583046347" />
+    <state x="270" y="45" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591667704744" />
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup" timestamp="1588474876943">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="410" y="139" width="700" height="530" key="recent.locations.popup/0.0.1536.824@0.0.1536.824" timestamp="1588474876943" />
-    <state x="470" y="30" key="refactoring.ChangeSignatureDialog" timestamp="1588496793167">
+    <state x="470" y="30" key="refactoring.ChangeSignatureDialog" timestamp="1591798742971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="30" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1588496793167" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1588901665642">
+    <state x="470" y="30" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591798742971" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1591846085589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588901665642" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591607168737">
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591846085589" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591794055258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591607168737" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591794055258" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
